@@ -20,7 +20,7 @@ namespace Assignment6Database
             connection = new OleDbConnection(connectionString: @"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = \\fs2\17103770\Desktop\NETDatabase\Assign6DB.accdb;
             Persist Security Info = False; ");
             String start= "01/03/2018", end="31/03/2018";
-
+            
             /*
             *   Try to connectinitially by calling Open() on the created  
             *   OleDbConnection object: connection
