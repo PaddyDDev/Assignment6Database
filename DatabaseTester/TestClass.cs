@@ -14,11 +14,11 @@ namespace DatabaseTester
 
         [Test]
         public void TestMethod()
-        {
-           OleDbConnection conn = Program.CreateConnection();
-           int x= Program.FeesCalculation(conn);
-            // TODO: Add your test code here
-            Assert.Pass("Your first passing test");
+        //{
+        //   OleDbConnection conn = Program.CreateConnection();
+        //   int x= Program.FeesCalculation(conn);
+        //    // TODO: Add your test code here
+        //    Assert.Pass("Your first passing test");
         }
     }
 }
